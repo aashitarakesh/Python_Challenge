@@ -77,7 +77,6 @@ with open(employee_csv, newline='') as csvfile:
         employee_id.append(row[0])
 
         # Add First Name and Last Name
-        # name = row[1].split(" ")
         name_list = row[1].split()
         first_name.append(name_list[0])
         last_name.append(name_list[1])
